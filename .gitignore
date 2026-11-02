@@ -1,0 +1,10 @@
+# internal notes: never publish
+HANDOFF*.md
+# local only
+node_modules/
+.DS_Store
+*.log
+# drafts and notes for the author: never publish
+_internal/
+# built release files
+dist/

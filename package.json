@@ -1,0 +1,18 @@
+{
+  "name": "tide-the-side",
+  "version": "0.1.0",
+  "description": "Unofficial macOS tool that sorts the Claude desktop app's Code sidebar headings A to Z.",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "private": true,
+  "os": ["darwin"],
+  "engines": { "node": ">=18" },
+  "bin": { "tide-the-side": "bin/tide-the-side.js" },
+  "files": ["bin/", "lib/", "README.md", "LICENSE.txt", "CHANGELOG.txt"],
+  "scripts": {
+    "test": "node --test test/",
+    "release-zip": "mkdir -p dist && git archive --format=zip --prefix=tide-the-side/ -o dist/tide-the-side-$npm_package_version.zip v$npm_package_version"
+  },
+  "dependencies": {
+    "classic-level": "1.4.1"
+  }
+}

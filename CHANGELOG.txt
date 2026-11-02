@@ -1,0 +1,9 @@
+tide-the-side: version history
+
+0.1.0 (first release)
+- Sorts the Claude desktop app's Code sidebar headings A to Z (plan, apply).
+- Optional: add a heading for each folder with sessions (--add-headings).
+- Optional: give headings a remembered model and effort so "+" works (--fill-settings).
+- Optional: re-sort every time Claude quits (watch install).
+- Full backup before every write; backups and restore.
+- Stops without writing when anything in the app's data is not as expected.
