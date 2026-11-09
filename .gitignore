@@ -8,3 +8,9 @@ node_modules/
 _internal/
 # built release files
 dist/
+# Claude Code's local settings ("don't ask again" approvals can hold full commands, passwords included): never publish
+.claude/
+# local environment files (passwords, API keys): never publish
+.env
+.env.*
+!.env.example
